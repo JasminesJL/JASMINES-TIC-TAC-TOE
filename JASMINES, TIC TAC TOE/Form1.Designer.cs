@@ -38,6 +38,7 @@
             this.Bot7 = new System.Windows.Forms.Button();
             this.Bot8 = new System.Windows.Forms.Button();
             this.Bot9 = new System.Windows.Forms.Button();
+            this.BOTabout = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Bot1
@@ -139,12 +140,27 @@
             this.Bot9.UseVisualStyleBackColor = true;
             this.Bot9.Click += new System.EventHandler(this.Bot9_Click);
             // 
+            // BOTabout
+            // 
+            this.BOTabout.BackColor = System.Drawing.Color.Moccasin;
+            this.BOTabout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BOTabout.Font = new System.Drawing.Font("Cooper Black", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.BOTabout.ForeColor = System.Drawing.Color.Black;
+            this.BOTabout.Location = new System.Drawing.Point(463, 2);
+            this.BOTabout.Name = "BOTabout";
+            this.BOTabout.Size = new System.Drawing.Size(75, 27);
+            this.BOTabout.TabIndex = 9;
+            this.BOTabout.Text = "About";
+            this.BOTabout.UseVisualStyleBackColor = false;
+            this.BOTabout.Click += new System.EventHandler(this.BOTabout_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(627, 418);
+            this.Controls.Add(this.BOTabout);
             this.Controls.Add(this.Bot9);
             this.Controls.Add(this.Bot8);
             this.Controls.Add(this.Bot7);
@@ -172,5 +188,6 @@
         private Button Bot7;
         private Button Bot8;
         private Button Bot9;
+        private Button BOTabout;
     }
 }
