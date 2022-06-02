@@ -87,5 +87,21 @@ namespace JASMINES__TIC_TAC_TOE
                 }
             }
         }
+
+        private void Bot6_Click(object sender, EventArgs e)
+        {
+            if (Bot6.Text == "")
+            {
+                Bot6.Text = Botvalue;
+                if (Botvalue == "X")
+                {
+                    Botvalue = "O";
+                }
+                else
+                {
+                    Botvalue = "X";
+                }
+            }
+        }
     }
 }

@@ -98,6 +98,7 @@
             this.Bot6.Size = new System.Drawing.Size(65, 65);
             this.Bot6.TabIndex = 5;
             this.Bot6.UseVisualStyleBackColor = true;
+            this.Bot6.Click += new System.EventHandler(this.Bot6_Click);
             // 
             // Bot7
             // 
