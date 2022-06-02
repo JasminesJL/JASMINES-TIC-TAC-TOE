@@ -68,6 +68,7 @@
             this.Bot3.Size = new System.Drawing.Size(65, 65);
             this.Bot3.TabIndex = 2;
             this.Bot3.UseVisualStyleBackColor = true;
+            this.Bot3.Click += new System.EventHandler(this.Bot3_Click);
             // 
             // Bot4
             // 
