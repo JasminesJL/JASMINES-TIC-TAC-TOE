@@ -3,6 +3,7 @@ namespace JASMINES__TIC_TAC_TOE
     public partial class Form1 : Form
     {
         String Botvalue = "X";
+        int counter = 0;
         public Form1()
         {
             InitializeComponent();
@@ -36,6 +37,7 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
+                        counter = 0;
                     }
                     // H B1 
                 }
@@ -53,6 +55,7 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
+                        counter = 0;
                     }
                     // D B1
                 }
@@ -70,7 +73,14 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
+                        counter = 0;
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("DRAW");
+                    counter = 0;
                 }
             }
         }
@@ -103,6 +113,7 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
+                        counter = 0;
                     }
                     // H B2
                 }
@@ -120,8 +131,16 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
+                        counter = 0;
                     }
                 }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("DRAW");
+                    counter = 0;
+                }
+
             }
         }
 
@@ -153,6 +172,7 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
+                        counter = 0;
                     }
                     // H B3
                 }
@@ -170,6 +190,7 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
+                        counter = 0;
                     }
                     // D B3
                 }
@@ -186,7 +207,14 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
+                        counter = 0;
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("DRAW");
+                    counter = 0;
                 }
             }
         }
@@ -219,6 +247,7 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
+                        counter = 0;
                     }
                     // H B4
                 }
@@ -236,7 +265,14 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
+                        counter = 0;
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("DRAW");
+                    counter = 0;
                 }
             }
         }
@@ -269,6 +305,7 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
+                        counter = 0;
                     }
                     // H B5
                 }
@@ -286,6 +323,7 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
+                        counter = 0;
                     }
                     // D B5
                 }
@@ -303,7 +341,14 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
+                        counter = 0;
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("DRAW");
+                    counter = 0;
                 }
             }
         }
@@ -336,6 +381,7 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
+                        counter = 0;
                     }
                     // H B6
                 }
@@ -353,7 +399,14 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
+                        counter = 0;
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("DRAW");
+                    counter = 0;
                 }
             }
         }
@@ -386,6 +439,7 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
+                        counter = 0;
                     }
                     // H B7
                 }
@@ -403,6 +457,7 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
+                        counter = 0;
                     }
                     // D B7
                 }
@@ -420,7 +475,14 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
+                        counter = 0;
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("DRAW");
+                    counter = 0;
                 }
             }
         }
@@ -453,6 +515,7 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
+                        counter = 0;
                     }
                     // H B8
                 }
@@ -470,7 +533,14 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
-                     }
+                        counter = 0;
+                    }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("DRAW");
+                    counter = 0;
                 }
             }
         }
@@ -503,6 +573,7 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
+                        counter = 0;
                     }
                     // H B9
                 }
@@ -520,6 +591,7 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
+                        counter = 0;
                     }
                      // D B9
                 }
@@ -537,7 +609,14 @@ namespace JASMINES__TIC_TAC_TOE
                         Bot7.Text = "";
                         Bot8.Text = "";
                         Bot9.Text = "";
+                        counter = 0;
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("DRAW");
+                    counter = 0;
                 }
             }
         }
