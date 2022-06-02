@@ -625,5 +625,38 @@ namespace JASMINES__TIC_TAC_TOE
         {
             MessageBox.Show("This game was created by John Lloyd Jasmines :)", "About:");
         }
+
+        private void BotReset_Click(object sender, EventArgs e) 
+        {
+            Bot1.Enabled = true;
+            Bot2.Enabled = true;
+            Bot3.Enabled = true;
+            Bot4.Enabled = true;
+            Bot5.Enabled = true;
+            Bot6.Enabled = true;
+            Bot7.Enabled = true;
+            Bot8.Enabled = true;
+            Bot9.Enabled = true;
+
+            Bot1.Text = "";
+            Bot2.Text = "";
+            Bot3.Text = "";
+            Bot4.Text = "";
+            Bot5.Text = "";
+            Bot6.Text = "";
+            Bot7.Text = "";
+            Bot8.Text = "";
+            Bot9.Text = "";
+
+            Bot1.BackColor = Color.White;
+            Bot2.BackColor = Color.White;
+            Bot3.BackColor = Color.White;
+            Bot4.BackColor = Color.White;
+            Bot5.BackColor = Color.White;
+            Bot6.BackColor = Color.White;
+            Bot7.BackColor = Color.White;
+            Bot8.BackColor = Color.White;
+            Bot9.BackColor = Color.White;
+        }
     }
 }
