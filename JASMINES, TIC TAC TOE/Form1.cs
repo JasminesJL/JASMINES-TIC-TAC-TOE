@@ -21,6 +21,22 @@ namespace JASMINES__TIC_TAC_TOE
                 {
                     Botvalue = "X";
                 }
+                if (Bot1.Text == Bot2.Text)
+                {
+                    if (Bot2.Text == Bot3.Text)
+                    {
+                        MessageBox.Show("Winner " + Bot1.Text);
+                        Bot1.Text = "";
+                        Bot2.Text = "";
+                        Bot3.Text = "";
+                        Bot4.Text = "";
+                        Bot5.Text = "";
+                        Bot6.Text = "";
+                        Bot7.Text = "";
+                        Bot8.Text = "";
+                        Bot9.Text = "";
+                    }
+                }
             }
         }
 
@@ -36,6 +52,22 @@ namespace JASMINES__TIC_TAC_TOE
                 else
                 {
                     Botvalue = "X";
+                }
+                if (Bot2.Text == Bot3.Text)
+                {
+                    if (Bot3.Text == Bot1.Text)
+                    {
+                        MessageBox.Show("Winner " + Bot2.Text);
+                        Bot1.Text = "";
+                        Bot2.Text = "";
+                        Bot3.Text = "";
+                        Bot4.Text = "";
+                        Bot5.Text = "";
+                        Bot6.Text = "";
+                        Bot7.Text = "";
+                        Bot8.Text = "";
+                        Bot9.Text = "";
+                    }
                 }
             }
         }
@@ -53,6 +85,22 @@ namespace JASMINES__TIC_TAC_TOE
                 {
                     Botvalue = "X";
                 }
+                if (Bot3.Text == Bot2.Text)
+                {
+                    if (Bot2.Text == Bot1.Text)
+                    {
+                        MessageBox.Show("Winner " + Bot3.Text);
+                        Bot1.Text = "";
+                        Bot2.Text = "";
+                        Bot3.Text = "";
+                        Bot4.Text = "";
+                        Bot5.Text = "";
+                        Bot6.Text = "";
+                        Bot7.Text = "";
+                        Bot8.Text = "";
+                        Bot9.Text = "";
+                    }
+                }
             }
         }
 
@@ -68,6 +116,22 @@ namespace JASMINES__TIC_TAC_TOE
                 else
                 {
                     Botvalue = "X";
+                }
+                if (Bot4.Text == Bot5.Text)
+                {
+                    if (Bot5.Text == Bot6.Text)
+                    {
+                        MessageBox.Show("Winner " + Bot4.Text);
+                        Bot1.Text = "";
+                        Bot2.Text = "";
+                        Bot3.Text = "";
+                        Bot4.Text = "";
+                        Bot5.Text = "";
+                        Bot6.Text = "";
+                        Bot7.Text = "";
+                        Bot8.Text = "";
+                        Bot9.Text = "";
+                    }
                 }
             }
         }
@@ -85,6 +149,22 @@ namespace JASMINES__TIC_TAC_TOE
                 {
                     Botvalue = "X";
                 }
+                if (Bot5.Text == Bot6.Text)
+                {
+                    if (Bot6.Text == Bot4.Text)
+                    {
+                        MessageBox.Show("Winner " + Bot5.Text);
+                        Bot1.Text = "";
+                        Bot2.Text = "";
+                        Bot3.Text = "";
+                        Bot4.Text = "";
+                        Bot5.Text = "";
+                        Bot6.Text = "";
+                        Bot7.Text = "";
+                        Bot8.Text = "";
+                        Bot9.Text = "";
+                    }
+                }
             }
         }
 
@@ -100,6 +180,22 @@ namespace JASMINES__TIC_TAC_TOE
                 else
                 {
                     Botvalue = "X";
+                }
+                if (Bot6.Text == Bot5.Text)
+                {
+                    if (Bot5.Text == Bot4.Text)
+                    {
+                        MessageBox.Show("Winner " + Bot6.Text);
+                        Bot1.Text = "";
+                        Bot2.Text = "";
+                        Bot3.Text = "";
+                        Bot4.Text = "";
+                        Bot5.Text = "";
+                        Bot6.Text = "";
+                        Bot7.Text = "";
+                        Bot8.Text = "";
+                        Bot9.Text = "";
+                    }
                 }
             }
         }
@@ -117,6 +213,22 @@ namespace JASMINES__TIC_TAC_TOE
                 {
                     Botvalue = "X";
                 }
+                if (Bot7.Text == Bot8.Text)
+                {
+                    if (Bot8.Text == Bot9.Text)
+                    {
+                        MessageBox.Show("Winner " + Bot7.Text);
+                        Bot1.Text = "";
+                        Bot2.Text = "";
+                        Bot3.Text = "";
+                        Bot4.Text = "";
+                        Bot5.Text = "";
+                        Bot6.Text = "";
+                        Bot7.Text = "";
+                        Bot8.Text = "";
+                        Bot9.Text = "";
+                    }
+                }
             }
         }
 
@@ -133,6 +245,22 @@ namespace JASMINES__TIC_TAC_TOE
                 {
                     Botvalue = "X";
                 }
+                if (Bot8.Text == Bot9.Text)
+                {
+                    if (Bot9.Text == Bot7.Text)
+                    {
+                        MessageBox.Show("Winner " + Bot8.Text);
+                        Bot1.Text = "";
+                        Bot2.Text = "";
+                        Bot3.Text = "";
+                        Bot4.Text = "";
+                        Bot5.Text = "";
+                        Bot6.Text = "";
+                        Bot7.Text = "";
+                        Bot8.Text = "";
+                        Bot9.Text = "";
+                    }
+                }
             }
         }
 
@@ -148,6 +276,22 @@ namespace JASMINES__TIC_TAC_TOE
                 else
                 {
                     Botvalue = "X";
+                }
+                if (Bot9.Text == Bot8.Text)
+                {
+                    if (Bot8.Text == Bot7.Text)
+                    {
+                        MessageBox.Show("Winner " + Bot9.Text);
+                        Bot1.Text = "";
+                        Bot2.Text = "";
+                        Bot3.Text = "";
+                        Bot4.Text = "";
+                        Bot5.Text = "";
+                        Bot6.Text = "";
+                        Bot7.Text = "";
+                        Bot8.Text = "";
+                        Bot9.Text = "";
+                    }
                 }
             }
         }

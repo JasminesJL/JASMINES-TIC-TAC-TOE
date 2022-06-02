@@ -43,6 +43,7 @@
             // Bot1
             // 
             this.Bot1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Bot1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Bot1.Location = new System.Drawing.Point(190, 93);
             this.Bot1.Name = "Bot1";
             this.Bot1.Size = new System.Drawing.Size(65, 65);
@@ -53,6 +54,7 @@
             // Bot2
             // 
             this.Bot2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Bot2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Bot2.Location = new System.Drawing.Point(190, 173);
             this.Bot2.Name = "Bot2";
             this.Bot2.Size = new System.Drawing.Size(65, 65);
@@ -63,6 +65,7 @@
             // Bot3
             // 
             this.Bot3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Bot3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Bot3.Location = new System.Drawing.Point(190, 253);
             this.Bot3.Name = "Bot3";
             this.Bot3.Size = new System.Drawing.Size(65, 65);
@@ -73,6 +76,7 @@
             // Bot4
             // 
             this.Bot4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Bot4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Bot4.Location = new System.Drawing.Point(273, 93);
             this.Bot4.Name = "Bot4";
             this.Bot4.Size = new System.Drawing.Size(65, 65);
@@ -83,6 +87,7 @@
             // Bot5
             // 
             this.Bot5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Bot5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Bot5.Location = new System.Drawing.Point(273, 173);
             this.Bot5.Name = "Bot5";
             this.Bot5.Size = new System.Drawing.Size(65, 65);
@@ -93,6 +98,7 @@
             // Bot6
             // 
             this.Bot6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Bot6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Bot6.Location = new System.Drawing.Point(273, 253);
             this.Bot6.Name = "Bot6";
             this.Bot6.Size = new System.Drawing.Size(65, 65);
@@ -103,6 +109,7 @@
             // Bot7
             // 
             this.Bot7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Bot7.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Bot7.Location = new System.Drawing.Point(353, 93);
             this.Bot7.Name = "Bot7";
             this.Bot7.Size = new System.Drawing.Size(65, 65);
@@ -113,6 +120,7 @@
             // Bot8
             // 
             this.Bot8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Bot8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Bot8.Location = new System.Drawing.Point(353, 173);
             this.Bot8.Name = "Bot8";
             this.Bot8.Size = new System.Drawing.Size(65, 65);
@@ -123,6 +131,7 @@
             // Bot9
             // 
             this.Bot9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Bot9.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Bot9.Location = new System.Drawing.Point(353, 253);
             this.Bot9.Name = "Bot9";
             this.Bot9.Size = new System.Drawing.Size(65, 65);
@@ -135,7 +144,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(639, 418);
+            this.ClientSize = new System.Drawing.Size(627, 418);
             this.Controls.Add(this.Bot9);
             this.Controls.Add(this.Bot8);
             this.Controls.Add(this.Bot7);
