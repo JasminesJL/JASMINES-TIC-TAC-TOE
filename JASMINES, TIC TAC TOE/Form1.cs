@@ -6,5 +6,10 @@ namespace JASMINES__TIC_TAC_TOE
         {
             InitializeComponent();
         }
+
+        private void Bot1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
