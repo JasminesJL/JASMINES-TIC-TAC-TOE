@@ -623,7 +623,7 @@ namespace JASMINES__TIC_TAC_TOE
 
         private void BOTabout_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("This game was created by John Lloyd Jasmines :)", "About:");
         }
     }
 }
