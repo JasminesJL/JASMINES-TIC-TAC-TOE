@@ -128,6 +128,7 @@
             this.Bot9.Size = new System.Drawing.Size(65, 65);
             this.Bot9.TabIndex = 8;
             this.Bot9.UseVisualStyleBackColor = true;
+            this.Bot9.Click += new System.EventHandler(this.Bot9_Click);
             // 
             // Form1
             // 
