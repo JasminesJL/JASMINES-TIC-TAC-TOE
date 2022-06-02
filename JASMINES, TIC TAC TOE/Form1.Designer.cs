@@ -40,6 +40,7 @@
             this.Bot9 = new System.Windows.Forms.Button();
             this.BOTabout = new System.Windows.Forms.Button();
             this.BotReset = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Bot1
@@ -147,7 +148,7 @@
             this.BOTabout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BOTabout.Font = new System.Drawing.Font("Cooper Black", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.BOTabout.ForeColor = System.Drawing.Color.Black;
-            this.BOTabout.Location = new System.Drawing.Point(450, 2);
+            this.BOTabout.Location = new System.Drawing.Point(434, 12);
             this.BOTabout.Name = "BOTabout";
             this.BOTabout.Size = new System.Drawing.Size(75, 27);
             this.BOTabout.TabIndex = 9;
@@ -160,7 +161,7 @@
             this.BotReset.BackColor = System.Drawing.Color.Moccasin;
             this.BotReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BotReset.Font = new System.Drawing.Font("Cooper Black", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.BotReset.Location = new System.Drawing.Point(369, 2);
+            this.BotReset.Location = new System.Drawing.Point(353, 12);
             this.BotReset.Name = "BotReset";
             this.BotReset.Size = new System.Drawing.Size(75, 27);
             this.BotReset.TabIndex = 10;
@@ -168,12 +169,27 @@
             this.BotReset.UseVisualStyleBackColor = false;
             this.BotReset.Click += new System.EventHandler(this.BotReset_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Red;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Cooper Black", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(515, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 27);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Quit Game";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(627, 418);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.BotReset);
             this.Controls.Add(this.BOTabout);
             this.Controls.Add(this.Bot9);
@@ -205,5 +221,6 @@
         private Button Bot9;
         private Button BOTabout;
         private Button BotReset;
+        private Button button1;
     }
 }

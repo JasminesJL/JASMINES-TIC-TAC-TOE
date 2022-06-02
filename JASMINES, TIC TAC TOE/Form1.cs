@@ -658,5 +658,10 @@ namespace JASMINES__TIC_TAC_TOE
             Bot8.BackColor = Color.White;
             Bot9.BackColor = Color.White;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
