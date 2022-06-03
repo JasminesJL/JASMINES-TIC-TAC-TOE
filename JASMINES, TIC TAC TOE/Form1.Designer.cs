@@ -41,7 +41,7 @@
             this.BOTabout = new System.Windows.Forms.Button();
             this.BotReset = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.BOTsoundoff = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Bot1
@@ -184,18 +184,18 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // BOTsoundoff
             // 
-            this.button2.BackColor = System.Drawing.Color.Moccasin;
-            this.button2.Font = new System.Drawing.Font("Cooper Black", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(12, 12);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(92, 27);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Sound off";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.BOTsoundoff.BackColor = System.Drawing.Color.Moccasin;
+            this.BOTsoundoff.Font = new System.Drawing.Font("Cooper Black", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.BOTsoundoff.ForeColor = System.Drawing.Color.Black;
+            this.BOTsoundoff.Location = new System.Drawing.Point(12, 12);
+            this.BOTsoundoff.Name = "BOTsoundoff";
+            this.BOTsoundoff.Size = new System.Drawing.Size(92, 27);
+            this.BOTsoundoff.TabIndex = 12;
+            this.BOTsoundoff.Text = "Sound off";
+            this.BOTsoundoff.UseVisualStyleBackColor = false;
+            this.BOTsoundoff.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
@@ -204,7 +204,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(627, 418);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.BOTsoundoff);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.BotReset);
             this.Controls.Add(this.BOTabout);
@@ -240,6 +240,6 @@
         private Button BOTabout;
         private Button BotReset;
         private Button button1;
-        private Button button2;
+        private Button BOTsoundoff;
     }
 }
