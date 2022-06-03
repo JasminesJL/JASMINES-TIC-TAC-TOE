@@ -42,7 +42,7 @@
             this.BotReset = new System.Windows.Forms.Button();
             this.BOTquit = new System.Windows.Forms.Button();
             this.BOTsoundoff = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.tictactoe = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Bot1
@@ -207,17 +207,17 @@
             this.BOTsoundoff.UseVisualStyleBackColor = false;
             this.BOTsoundoff.Click += new System.EventHandler(this.button2_Click);
             // 
-            // label1
+            // tictactoe
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Showcard Gothic", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(174, 45);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(595, 119);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "TIC TAC TOE";
+            this.tictactoe.AutoSize = true;
+            this.tictactoe.BackColor = System.Drawing.Color.Transparent;
+            this.tictactoe.Font = new System.Drawing.Font("Showcard Gothic", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.tictactoe.ForeColor = System.Drawing.Color.Transparent;
+            this.tictactoe.Location = new System.Drawing.Point(174, 45);
+            this.tictactoe.Name = "tictactoe";
+            this.tictactoe.Size = new System.Drawing.Size(595, 119);
+            this.tictactoe.TabIndex = 13;
+            this.tictactoe.Text = "TIC TAC TOE";
             // 
             // Form1
             // 
@@ -226,7 +226,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(894, 590);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.tictactoe);
             this.Controls.Add(this.BOTsoundoff);
             this.Controls.Add(this.BOTquit);
             this.Controls.Add(this.BotReset);
@@ -265,6 +265,6 @@
         private Button BotReset;
         private Button BOTquit;
         private Button BOTsoundoff;
-        private Label label1;
+        private Label tictactoe;
     }
 }
