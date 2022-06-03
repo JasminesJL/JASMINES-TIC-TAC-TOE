@@ -1,14 +1,16 @@
+using System.Media;
 namespace JASMINES__TIC_TAC_TOE
 {
     public partial class Form1 : Form
     {
         String Botvalue = "X";
         int counter = 0;
+        SoundPlayer _soundPlayer = new SoundPlayer(soundLocation: @"E:\PROGRAMMING\JASMINES, TIC TAC TOE\JASMINES, TIC TAC TOE\bin\Debug\TICTACTOE.wav");
+        
         public Form1()
         {
             InitializeComponent();
         }
-
         private void Bot1_Click(object sender, EventArgs e)
         {
             if (Bot1.Text == "")
@@ -662,6 +664,16 @@ namespace JASMINES__TIC_TAC_TOE
         private void button1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            _soundPlayer.Play();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            _soundPlayer.Stop();
         }
     }
 }
